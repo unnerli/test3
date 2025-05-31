@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+    background-image: linear-gradient(white,blue,red);
+}
+p{
+    font-size: 25px;
+}
+a:hover{
+    background-image: linear-gradient(white,blue,red);
+    border-radius: 10px;
+    color: white;
+    transition: all 3s linear;
+}
+a{
+    color: black;
+}
+footer{
+    margin-left: 350px;
+    opacity: 0.2;
+}
+footer:hover{
+    opacity: 1;
+    transition: all 2s linear;
+    
+}
